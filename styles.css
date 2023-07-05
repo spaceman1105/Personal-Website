@@ -237,11 +237,14 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     padding-top: 100px;
 }
 
-/* .row {
+.row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-} */
+    justify-content: space-between;
+}
+
+.movie-block {
+    width: 30%;
+}
 
 .movie-img {
     display: block;
