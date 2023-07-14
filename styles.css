@@ -243,25 +243,27 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     justify-content: space-between;
 }
 
-.movie-block {
+/* Item block */
+.block {
     width: 33%;
 }
 
-.movie-img {
+.item-img {
     display: block;
     width: 350px;
     height: 500px;
     box-shadow: 0 0 2px rgb(185, 50, 50),
        0 0 5px rgb(185, 50, 50);
+    opacity: 1;
 }
 
-.movie-cover {
+.cover {
     position: relative;
     margin: 15px auto;
 }
 
 
-.movie-overlay {
+.overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -273,11 +275,6 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     box-sizing: border-box;
 }
 
-.movie-img {
-    vertical-align: middle;
-    opacity: 1;
-}
-
 .description {
     position: absolute;
     margin: 0 10px;
@@ -287,13 +284,14 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     color: rgb(201, 49, 115);
 }
 
-.movie-overlay:hover .description {
+/* Item Animations */
+.overlay:hover .description {
     width: 101%;
     opacity: 1;
     transition: .5s ease;
 }
 
-.movie-cover:hover .movie-img {
+.cover:hover .item-img {
     width: 101%;
     height: 101%;
     opacity: 0.2;
@@ -301,6 +299,6 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     margin-left: -20px;
 }
 
-.dscrpt_3 {
-    /* color:azure; */
-}
+/* .dscrpt_3 {
+    color:azure;
+} */
