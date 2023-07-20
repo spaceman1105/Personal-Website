@@ -237,6 +237,10 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     padding-top: 100px;
 }
 
+.card_footer {
+    padding-top: 10px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -302,3 +306,8 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
 /* .dscrpt_3 {
     color:azure;
 } */
+
+
+.music li {
+    font-weight: 700;
+}
