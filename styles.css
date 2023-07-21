@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(169, 236, 227);
+    background-color: #a9ece3;
     color: #0f141e;
 
     font-size: 16px;
@@ -181,7 +181,7 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     width: 100%;
     height: 3px;
 
-    background-color: rgb(201, 49, 115);
+    background-color: #c93173;
     opacity: 0;
 
     position: absolute;
@@ -192,7 +192,7 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
 }
 
 .nav_link:hover {
-    color: rgb(201, 49, 115);
+    color: #c93173;
 }
 
 .nav_link:hover::after,
@@ -201,7 +201,7 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
 }
 
 .nav_link.active {
-    color: rgb(201, 49, 115);
+    color: #c93173;
 }
 
 
@@ -254,7 +254,7 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     height: 500px;
     box-shadow: 0 0 2px rgb(185, 50, 50),
        0 0 5px rgb(185, 50, 50);
-    opacity: 1;
+    opacity: 1; 
 }
 
 .cover {
@@ -281,7 +281,7 @@ background: linear-gradient(286deg, rgb(238, 174, 202) 0%, rgba(169, 236, 227,1)
     top: 30%;
     opacity: 0;
     font-weight: 700;
-    color: rgb(201, 49, 115);
+    color: #501B32;
 }
 
 /* Item Animations */
